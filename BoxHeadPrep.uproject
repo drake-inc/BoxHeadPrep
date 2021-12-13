@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.0EA",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "BoxHeadPrep",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"BlueprintGraph"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "Bridge",
